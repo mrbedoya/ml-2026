@@ -1,0 +1,101 @@
+checking_account_status,loan_duration_mo,credit_history,purpose,loan_amount,savings_account_balance,time_employed_yrs,payment_pcnt_income,gender_status,other_signators,time_in_residence,property,age_yrs,other_credit_outstanding,home_ownership,number_loans,job_category,dependents,telephone,foreign_worker,bad_credit
+none,12,critical account - other non-bank loans,education,2096,< 100 DM,4 - 7 years,2,male-single,none,3,real estate,49,none,own,1,unskilled-resident,2,none,yes,0
+< 0 DM,30,no credit - paid,business,8072,unknown/none,< 1 year,2,male-single,none,3,car or other,25,bank,own,3,skilled,1,none,yes,0
+0 - 200 DM,9,current loans paid,radio/television,458,< 100 DM,1 - 4 years,4,male-single,none,3,real estate,24,none,own,1,skilled,1,none,yes,0
+< 0 DM,6,current loans paid,car,1352,500 - 1000 DM,unemployed,1,female-divorced/separated/married,none,2,building society savings/life insurance,23,none,rent,1,unemployed-unskilled-non-resident,1,yes,yes,0
+0 - 200 DM,27,past payment delays,car,5965,< 100 DM,>= 7 years,1,male-single,none,2,car or other,30,none,own,2,highly skilled,1,yes,yes,0
+none,36,current loans paid,education,1819,< 100 DM,1 - 4 years,4,male-single,none,4,unknown-none,37,stores,for free,1,skilled,1,yes,yes,1
+0 - 200 DM,42,critical account - other non-bank loans,business,5954,< 100 DM,4 - 7 years,2,female-divorced/separated/married,none,1,real estate,41,bank,own,2,unskilled-resident,1,none,yes,0
+none,12,critical account - other non-bank loans,education,2012,unknown/none,4 - 7 years,4,female-divorced/separated/married,none,2,car or other,61,none,own,1,skilled,1,none,yes,0
+0 - 200 DM,36,critical account - other non-bank loans,radio/television,2337,< 100 DM,>= 7 years,4,male-single,none,4,real estate,36,none,own,1,skilled,1,none,yes,0
+0 - 200 DM,20,past payment delays,car,7057,unknown/none,4 - 7 years,3,male-single,none,4,building society savings/life insurance,36,bank,rent,2,highly skilled,2,yes,yes,0
+none,18,all loans at bank paid,car,6458,< 100 DM,>= 7 years,2,male-single,none,4,unknown-none,39,bank,own,2,highly skilled,2,yes,yes,1
+0 - 200 DM,9,current loans paid,furniture/equipment,918,< 100 DM,1 - 4 years,4,female-divorced/separated/married,none,1,building society savings/life insurance,30,none,own,1,skilled,1,none,yes,1
+> 200 DM or salary assignment,15,current loans paid,education,392,< 100 DM,< 1 year,4,female-divorced/separated/married,none,4,building society savings/life insurance,23,none,rent,1,skilled,1,yes,yes,0
+none,24,critical account - other non-bank loans,car,3868,< 100 DM,>= 7 years,4,female-divorced/separated/married,none,2,car or other,41,none,rent,2,highly skilled,1,yes,yes,0
+0 - 200 DM,12,current loans paid,repairs,639,< 100 DM,1 - 4 years,4,male-single,none,2,car or other,30,none,own,1,skilled,1,none,yes,1
+none,18,current loans paid,furniture/equipment,1984,< 100 DM,1 - 4 years,4,male-single,none,4,unknown-none,47,bank,for free,2,skilled,1,none,yes,0
+none,21,critical account - other non-bank loans,furniture/equipment,2288,< 100 DM,< 1 year,4,female-divorced/separated/married,none,4,building society savings/life insurance,23,none,own,1,skilled,1,yes,yes,0
+> 200 DM or salary assignment,36,current loans paid,radio/television,5848,< 100 DM,1 - 4 years,4,male-single,none,1,car or other,24,none,own,1,skilled,1,none,yes,0
+< 0 DM,9,critical account - other non-bank loans,repairs,1288,100 - 500 DM,>= 7 years,3,male-single,guarantor,4,real estate,48,none,own,2,skilled,2,none,no,0
+< 0 DM,21,past payment delays,education,3414,< 100 DM,< 1 year,2,male-single,none,1,building society savings/life insurance,26,none,own,2,skilled,1,none,yes,1
+none,12,current loans paid,radio/television,1963,< 100 DM,4 - 7 years,4,male-single,none,2,car or other,31,none,rent,2,highly skilled,2,yes,yes,0
+0 - 200 DM,18,critical account - other non-bank loans,car,884,< 100 DM,>= 7 years,4,male-single,none,4,car or other,36,bank,own,1,skilled,2,yes,yes,1
+none,12,critical account - other non-bank loans,furniture/equipment,1935,< 100 DM,>= 7 years,4,male-single,none,4,real estate,43,none,own,3,skilled,1,yes,yes,0
+none,36,current loans paid,radio/television,3835,unknown/none,>= 7 years,2,female-divorced/separated/married,none,4,real estate,45,none,own,1,unskilled-resident,1,yes,yes,0
+< 0 DM,27,no credit - paid,business,5293,< 100 DM,unemployed,2,male-single,none,4,building society savings/life insurance,50,stores,own,2,skilled,1,yes,yes,1
+none,12,current loans paid,radio/television,707,< 100 DM,1 - 4 years,4,male-single,none,2,real estate,30,bank,own,2,skilled,1,none,yes,0
+0 - 200 DM,12,current loans paid,radio/television,1155,< 100 DM,>= 7 years,3,male-married/widowed,guarantor,3,real estate,40,bank,own,2,unskilled-resident,1,none,yes,0
+< 0 DM,6,critical account - other non-bank loans,car,666,>= 1000 DM,4 - 7 years,3,female-divorced/separated/married,none,4,real estate,39,none,own,2,unskilled-resident,1,yes,yes,0
+0 - 200 DM,30,current loans paid,car,2150,< 100 DM,1 - 4 years,4,female-divorced/separated/married,guarantor,2,unknown-none,24,bank,own,1,skilled,1,none,yes,1
+< 0 DM,14,current loans paid,car,8978,< 100 DM,>= 7 years,1,male-divorced/separated,none,4,building society savings/life insurance,45,none,own,1,highly skilled,1,yes,no,1
+0 - 200 DM,48,past payment delays,other,7582,100 - 500 DM,unemployed,2,male-single,none,4,unknown-none,31,none,for free,1,highly skilled,1,yes,yes,0
+> 200 DM or salary assignment,24,critical account - other non-bank loans,car,1344,unknown/none,4 - 7 years,4,male-single,none,2,real estate,37,bank,own,2,unskilled-resident,2,none,yes,1
+< 0 DM,15,past payment delays,furniture/equipment,3643,< 100 DM,>= 7 years,1,female-divorced/separated/married,none,4,building society savings/life insurance,27,none,own,2,unskilled-resident,1,none,yes,0
+0 - 200 DM,13,current loans paid,radio/television,2101,< 100 DM,< 1 year,2,female-divorced/separated/married,guarantor,4,building society savings/life insurance,23,none,own,1,unskilled-resident,1,none,yes,0
+< 0 DM,15,current loans paid,repairs,1275,unknown/none,1 - 4 years,4,female-divorced/separated/married,none,2,car or other,24,none,rent,1,skilled,1,none,yes,1
+none,10,current loans paid,education,727,500 - 1000 DM,>= 7 years,4,male-single,none,4,unknown-none,46,none,for free,1,skilled,1,yes,yes,0
+0 - 200 DM,24,current loans paid,car,1246,< 100 DM,< 1 year,4,male-single,none,2,real estate,23,stores,own,1,unskilled-resident,1,none,yes,1
+none,12,critical account - other non-bank loans,radio/television,2331,unknown/none,>= 7 years,1,male-single,co-applicant,4,real estate,49,none,own,1,skilled,1,yes,yes,0
+> 200 DM or salary assignment,12,past payment delays,car,2247,< 100 DM,1 - 4 years,2,female-divorced/separated/married,none,2,car or other,36,stores,own,2,skilled,1,yes,yes,0
+< 0 DM,36,current loans paid,furniture/equipment,3446,< 100 DM,>= 7 years,4,male-single,none,2,car or other,42,none,own,1,skilled,2,none,yes,1
+none,7,past payment delays,radio/television,846,unknown/none,>= 7 years,3,male-single,none,4,unknown-none,36,none,for free,1,skilled,1,none,yes,0
+none,6,critical account - other non-bank loans,car,362,100 - 500 DM,1 - 4 years,4,female-divorced/separated/married,none,4,car or other,52,none,own,2,unskilled-resident,1,none,yes,0
+0 - 200 DM,18,critical account - other non-bank loans,furniture/equipment,7374,< 100 DM,unemployed,4,male-single,none,4,building society savings/life insurance,40,stores,own,2,highly skilled,1,yes,yes,0
+0 - 200 DM,12,current loans paid,furniture/equipment,983,>= 1000 DM,< 1 year,1,female-divorced/separated/married,none,4,real estate,19,none,rent,1,unskilled-resident,1,none,yes,0
+none,24,critical account - other non-bank loans,car,2197,unknown/none,4 - 7 years,4,male-single,none,4,car or other,43,none,own,2,skilled,2,yes,yes,0
+none,24,current loans paid,radio/television,3235,500 - 1000 DM,>= 7 years,3,male-divorced/separated,none,2,car or other,26,none,own,1,highly skilled,1,yes,yes,0
+none,36,critical account - other non-bank loans,car,5842,< 100 DM,>= 7 years,2,male-single,none,2,building society savings/life insurance,35,none,own,2,skilled,2,yes,yes,0
+< 0 DM,18,past payment delays,education,8471,unknown/none,1 - 4 years,1,female-divorced/separated/married,none,2,car or other,23,none,rent,2,skilled,1,yes,yes,0
+0 - 200 DM,24,current loans paid,other,11328,< 100 DM,1 - 4 years,2,male-single,co-applicant,3,car or other,29,bank,own,2,highly skilled,1,yes,yes,1
+> 200 DM or salary assignment,12,current loans paid,furniture/equipment,1424,unknown/none,>= 7 years,3,female-divorced/separated/married,none,4,real estate,55,none,own,1,highly skilled,1,yes,yes,0
+0 - 200 DM,12,current loans paid,furniture/equipment,3017,< 100 DM,< 1 year,3,female-divorced/separated/married,none,1,real estate,34,none,rent,1,highly skilled,1,none,yes,0
+0 - 200 DM,24,current loans paid,car,1201,< 100 DM,< 1 year,4,male-single,none,1,building society savings/life insurance,26,none,own,1,skilled,1,none,yes,0
+< 0 DM,24,current loans paid,car,3123,< 100 DM,< 1 year,4,female-divorced/separated/married,none,1,building society savings/life insurance,27,none,own,1,skilled,1,none,yes,1
+> 200 DM or salary assignment,15,critical account - other non-bank loans,car,2360,500 - 1000 DM,1 - 4 years,2,male-single,none,2,car or other,36,none,own,1,skilled,1,yes,yes,0
+none,39,current loans paid,car,8588,100 - 500 DM,>= 7 years,4,male-single,none,2,car or other,45,none,own,1,highly skilled,1,yes,yes,0
+none,4,critical account - other non-bank loans,radio/television,1503,< 100 DM,4 - 7 years,2,male-single,none,1,real estate,42,none,own,2,unskilled-resident,2,none,yes,0
+none,24,current loans paid,radio/television,3105,unknown/none,< 1 year,4,male-single,none,2,car or other,25,none,own,2,skilled,1,none,yes,0
+none,24,past payment delays,car,2032,< 100 DM,>= 7 years,4,male-single,none,4,unknown-none,60,none,for free,2,skilled,1,yes,yes,0
+< 0 DM,48,current loans paid,radio/television,6999,< 100 DM,4 - 7 years,1,male-married/widowed,guarantor,1,real estate,34,none,own,2,skilled,1,yes,yes,1
+0 - 200 DM,18,no credit - paid,car,2278,100 - 500 DM,< 1 year,3,female-divorced/separated/married,none,3,car or other,28,none,own,2,skilled,1,none,yes,1
+< 0 DM,12,current loans paid,car,1372,< 100 DM,4 - 7 years,2,male-divorced/separated,none,3,car or other,36,none,own,1,skilled,1,none,yes,1
+< 0 DM,15,current loans paid,business,806,< 100 DM,1 - 4 years,4,female-divorced/separated/married,none,4,building society savings/life insurance,22,none,own,1,unskilled-resident,1,none,yes,0
+none,24,current loans paid,education,937,< 100 DM,< 1 year,4,male-married/widowed,none,3,car or other,27,none,own,2,unskilled-resident,1,none,yes,0
+< 0 DM,18,current loans paid,furniture/equipment,2039,< 100 DM,1 - 4 years,1,female-divorced/separated/married,none,4,real estate,20,bank,rent,1,skilled,1,none,yes,1
+none,21,current loans paid,business,1572,>= 1000 DM,>= 7 years,4,female-divorced/separated/married,none,4,real estate,36,bank,own,1,unskilled-resident,1,none,yes,0
+0 - 200 DM,24,current loans paid,car,2718,< 100 DM,1 - 4 years,3,female-divorced/separated/married,none,4,building society savings/life insurance,20,none,rent,1,unskilled-resident,1,yes,yes,1
+none,24,critical account - other non-bank loans,business,4526,< 100 DM,1 - 4 years,3,male-single,none,2,real estate,74,none,own,1,highly skilled,1,yes,yes,0
+none,42,critical account - other non-bank loans,furniture/equipment,4042,500 - 1000 DM,1 - 4 years,4,male-single,none,4,real estate,36,none,own,2,skilled,1,yes,yes,0
+none,24,current loans paid,radio/television,1376,500 - 1000 DM,4 - 7 years,4,female-divorced/separated/married,none,1,car or other,28,none,own,1,skilled,1,none,yes,0
+none,24,critical account - other non-bank loans,furniture/equipment,5150,< 100 DM,>= 7 years,4,male-single,none,4,car or other,33,none,own,1,skilled,1,yes,yes,0
+0 - 200 DM,15,current loans paid,repairs,2631,100 - 500 DM,1 - 4 years,3,female-divorced/separated/married,none,2,real estate,25,none,own,1,unskilled-resident,1,none,yes,0
+< 0 DM,9,critical account - other non-bank loans,radio/television,1138,< 100 DM,1 - 4 years,4,male-single,none,4,real estate,25,none,own,2,unskilled-resident,1,none,yes,0
+none,30,critical account - other non-bank loans,radio/television,3077,unknown/none,>= 7 years,3,male-single,none,2,car or other,40,none,own,2,skilled,2,yes,yes,0
+none,24,current loans paid,car,2603,>= 1000 DM,1 - 4 years,2,female-divorced/separated/married,none,4,car or other,28,none,rent,1,skilled,1,yes,yes,0
+none,6,critical account - other non-bank loans,car,6761,< 100 DM,4 - 7 years,1,male-single,none,3,unknown-none,45,none,own,2,highly skilled,2,yes,yes,0
+none,24,critical account - other non-bank loans,car,2463,100 - 500 DM,4 - 7 years,4,male-married/widowed,none,3,building society savings/life insurance,27,none,own,2,skilled,1,yes,yes,0
+0 - 200 DM,39,critical account - other non-bank loans,radio/television,4933,< 100 DM,4 - 7 years,2,male-single,guarantor,2,real estate,25,none,own,2,skilled,1,none,yes,1
+0 - 200 DM,12,no credit - paid,education,1410,< 100 DM,1 - 4 years,2,male-single,none,2,real estate,31,none,own,1,unskilled-resident,1,yes,yes,0
+0 - 200 DM,21,current loans paid,business,1188,< 100 DM,>= 7 years,2,female-divorced/separated/married,none,4,building society savings/life insurance,39,none,own,1,skilled,2,none,yes,1
+none,6,critical account - other non-bank loans,radio/television,1554,< 100 DM,4 - 7 years,1,female-divorced/separated/married,none,2,car or other,24,none,rent,2,skilled,1,yes,yes,0
+< 0 DM,8,critical account - other non-bank loans,car,731,< 100 DM,>= 7 years,4,male-single,none,4,real estate,47,none,own,2,unskilled-resident,1,none,yes,0
+none,18,critical account - other non-bank loans,furniture/equipment,3780,< 100 DM,< 1 year,3,male-divorced/separated,none,2,car or other,35,none,own,2,highly skilled,1,yes,yes,0
+< 0 DM,18,critical account - other non-bank loans,car,3966,< 100 DM,>= 7 years,1,female-divorced/separated/married,none,4,real estate,33,bank,rent,3,skilled,1,yes,yes,1
+none,4,current loans paid,furniture/equipment,601,< 100 DM,< 1 year,1,female-divorced/separated/married,none,3,real estate,23,none,rent,1,unskilled-resident,2,none,yes,0
+none,24,all loans at bank paid,business,1559,< 100 DM,4 - 7 years,4,male-single,none,4,car or other,50,bank,own,1,skilled,1,yes,yes,0
+none,18,current loans paid,car,6761,unknown/none,1 - 4 years,2,male-single,none,4,car or other,68,none,rent,2,skilled,1,none,yes,1
+none,24,critical account - other non-bank loans,car,5804,>= 1000 DM,1 - 4 years,4,male-single,none,2,real estate,27,none,own,2,skilled,1,none,yes,0
+< 0 DM,24,current loans paid,radio/television,2439,< 100 DM,< 1 year,4,female-divorced/separated/married,none,4,real estate,35,none,own,1,skilled,1,yes,yes,1
+none,15,current loans paid,furniture/equipment,2221,500 - 1000 DM,1 - 4 years,2,female-divorced/separated/married,none,4,car or other,20,none,rent,1,skilled,1,none,yes,0
+none,15,current loans paid,repairs,874,unknown/none,< 1 year,4,female-divorced/separated/married,none,1,real estate,24,none,own,1,skilled,1,none,yes,0
+< 0 DM,12,current loans paid,education,795,< 100 DM,< 1 year,4,female-divorced/separated/married,none,4,building society savings/life insurance,53,none,own,1,skilled,1,none,yes,1
+< 0 DM,18,current loans paid,furniture/equipment,4153,< 100 DM,1 - 4 years,2,male-single,co-applicant,3,car or other,42,none,own,1,skilled,1,none,yes,1
+none,24,current loans paid,furniture/equipment,929,unknown/none,4 - 7 years,4,male-single,none,2,car or other,31,stores,own,1,skilled,1,yes,yes,0
+0 - 200 DM,48,no credit - paid,car,8358,500 - 1000 DM,< 1 year,1,female-divorced/separated/married,none,1,car or other,30,none,own,2,skilled,1,none,yes,0
+< 0 DM,36,past payment delays,business,2145,< 100 DM,4 - 7 years,2,male-single,none,1,car or other,24,none,own,2,skilled,1,yes,yes,1
+0 - 200 DM,9,critical account - other non-bank loans,radio/television,1154,< 100 DM,>= 7 years,2,male-single,none,4,real estate,37,none,own,3,unskilled-resident,1,none,yes,0
+< 0 DM,24,current loans paid,car,6579,< 100 DM,unemployed,4,male-single,none,2,unknown-none,29,none,for free,1,highly skilled,1,yes,yes,0
+none,12,critical account - other non-bank loans,education,3565,unknown/none,< 1 year,2,male-single,none,1,building society savings/life insurance,37,none,own,2,unskilled-resident,2,none,yes,0
+< 0 DM,30,current loans paid,car,3857,< 100 DM,1 - 4 years,4,male-divorced/separated,none,4,building society savings/life insurance,40,none,own,1,highly skilled,1,yes,yes,0
+< 0 DM,45,current loans paid,radio/television,1845,< 100 DM,1 - 4 years,4,male-single,none,4,unknown-none,23,none,for free,1,skilled,1,yes,yes,1
