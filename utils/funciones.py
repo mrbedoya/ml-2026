@@ -293,7 +293,7 @@ def tidy_corr_matrix(corr_mat: pd.DataFrame) -> pd.DataFrame:
     return tidy.sort_values("abs_r", ascending=False)
 
 
-def check_vif(X: pd.DataFrame) -> pd.DataFrame:
+def check_vif(X: pd.DataFrame, intercepto: bool = False) -> pd.DataFrame:
     """Calcula el factor de inflación de la varianza (VIF) de cada variable.
 
     El VIF mide cuánto se explica una variable a partir de las demás: valores entre
@@ -316,6 +316,12 @@ def check_vif(X: pd.DataFrame) -> pd.DataFrame:
     ----------
     X : pd.DataFrame
         Variables predictoras numéricas, sin valores nulos.
+    intercepto : bool, default False
+        Si es ``True`` cada regresión auxiliar lleva intercepto aunque ``X`` no tenga una columna
+        constante (VIF estándar, con R² centrado). Con ``False`` (comportamiento anterior, igual
+        al de statsmodels) solo lo lleva si ``X`` incluye o genera una constante; cuando no la
+        incluye el VIF sale inflado en variables escaladas (por ejemplo, entre 0 y 1). Se
+        recomienda ``intercepto=True`` (o pasar ``sm.add_constant(X)``).
 
     Returns
     -------
@@ -333,7 +339,7 @@ def check_vif(X: pd.DataFrame) -> pd.DataFrame:
     n_filas, n_vars = valores.shape
 
     # Una constante distinta de cero actúa como intercepto en las regresiones auxiliares
-    tiene_intercepto = bool((X.loc[:, es_constante] != 0).any().any())
+    tiene_intercepto = intercepto or bool((X.loc[:, es_constante] != 0).any().any())
     intercepto = np.ones((n_filas, 1)) if tiene_intercepto else np.empty((n_filas, 0))
 
     vifs = []
