@@ -66,10 +66,10 @@ Price,Year,Kilometer,Engine,Length,Width,Height,Seating Capacity,Fuel Tank Capac
 22379.988,2020,30000,2184.0,3985.0,1820.0,1855.0,4.0,57.0,Diesel,Automatic,First,Individual,AWD,1
 43800.0,2012,25500,4163.0,4649.0,1860.0,1366.0,5.0,64.0,Petrol,Automatic,Second,Corporate,AWD,2
 3059.9880000000003,2016,57159,799.0,3679.0,1579.0,1478.0,5.0,28.0,Petrol,Manual,First,Individual,FWD,0
-21492.0,2017,96095,2999.0,4825.0,1860.0,1840.0,7.0,65.0,Diesel,Automatic,First,Individual,RWD,2
+21492.0,2017,96095,2999.0,4825.0,1860.0,1840.0,7.0,65.0,Diesel,Automatic,First,Individual,RWD,3
 3000.0,2012,68000,998.0,3539.0,1495.0,1700.0,5.0,35.0,Petrol,Manual,First,Individual,FWD,0
 17880.0,2012,40000,1968.0,4629.0,1898.0,1653.0,5.0,75.0,Diesel,Automatic,First,Individual,AWD,2
-15300.0,2021,30000,1493.0,4315.0,1800.0,1645.0,5.0,50.0,Diesel,Automatic,First,Individual,FWD,1
+15300.0,2021,30000,1493.0,4315.0,1800.0,1645.0,5.0,50.0,Diesel,Automatic,First,Individual,FWD,2
 16680.0,2019,29096,1591.0,4270.0,1780.0,1665.0,5.0,55.0,Petrol,Automatic,First,Individual,FWD,0
 5400.0,2015,52000,1197.0,3995.0,1695.0,1555.0,5.0,42.0,Petrol,Manual,First,Individual,FWD,0
 25200.0,2018,42000,1984.0,4370.0,1783.0,1458.0,5.0,60.0,Diesel,Automatic,First,Individual,FWD,2
@@ -81,7 +81,7 @@ Price,Year,Kilometer,Engine,Length,Width,Height,Seating Capacity,Fuel Tank Capac
 13500.0,2019,40000,1582.0,4375.0,1700.0,1475.0,5.0,43.0,Diesel,Manual,First,Individual,FWD,0
 3900.0,2010,56000,1497.0,4420.0,1695.0,1480.0,5.0,42.0,Petrol,Automatic,First,Individual,FWD,0
 33600.0,2011,70662,2400.0,4517.0,1766.0,1477.0,5.0,62.0,Petrol,Automatic,Second,Individual,FWD,4
-15900.0,2021,20000,998.0,3995.0,1790.0,1647.0,5.0,45.0,Petrol,Manual,First,Individual,FWD,1
+15900.0,2021,20000,998.0,3995.0,1790.0,1647.0,5.0,45.0,Petrol,Manual,First,Individual,FWD,2
 5100.0,2018,18000,998.0,3599.0,1495.0,1700.0,5.0,35.0,Petrol,Manual,First,Individual,FWD,0
 8388.0,2017,67000,1591.0,4370.0,1700.0,1475.0,5.0,43.0,Petrol,Manual,First,Individual,FWD,0
 4380.0,2019,32000,999.0,3679.0,1579.0,1478.0,5.0,28.0,Petrol,Manual,First,Individual,FWD,0
@@ -170,7 +170,7 @@ Price,Year,Kilometer,Engine,Length,Width,Height,Seating Capacity,Fuel Tank Capac
 10800.0,2016,70000,2696.0,4755.0,1900.0,1785.0,7.0,78.0,Diesel,Manual,Second,Individual,AWD,1
 13188.0,2018,20690,1598.0,4413.0,1699.0,1466.0,5.0,55.0,Petrol,Automatic,First,Individual,FWD,1
 4560.0,2013,57000,1197.0,3585.0,1595.0,1550.0,5.0,35.0,Petrol,Automatic,First,Individual,FWD,0
-18900.0,2020,63000,1493.0,4315.0,1800.0,1645.0,5.0,50.0,Diesel,Automatic,First,Individual,FWD,1
+18900.0,2020,63000,1493.0,4315.0,1800.0,1645.0,5.0,50.0,Diesel,Automatic,First,Individual,FWD,2
 3600.0,2014,40000,1197.0,3995.0,1710.0,1505.0,5.0,45.0,Petrol,Manual,First,Individual,FWD,0
 22800.0,2020,41736,1956.0,4395.0,1818.0,1640.0,5.0,60.0,Diesel,Automatic,First,Individual,AWD,2
 29400.0,2015,103000,2143.0,4804.0,2141.0,1796.0,5.0,70.0,Diesel,Automatic,First,Individual,AWD,3
@@ -198,7 +198,7 @@ Price,Year,Kilometer,Engine,Length,Width,Height,Seating Capacity,Fuel Tank Capac
 13140.0,2020,43260,1197.0,3971.0,1682.0,1469.0,5.0,45.0,Petrol,Automatic,First,Individual,FWD,0
 11339.988,2019,88000,1493.0,3995.0,1795.0,1817.0,7.0,60.0,Diesel,Manual,First,Individual,RWD,1
 11700.0,2011,61000,1995.0,4899.0,2094.0,1464.0,5.0,64.0,Diesel,Automatic,Third,Individual,RWD,3
-46800.0,2020,13000,1998.0,3850.0,1727.0,1414.0,4.0,44.0,Petrol,Automatic,First,Individual,FWD,2
+46800.0,2020,13000,1998.0,3850.0,1727.0,1414.0,4.0,44.0,Petrol,Automatic,First,Individual,FWD,3
 8388.0,2018,43000,1248.0,3840.0,1735.0,1530.0,5.0,37.0,Diesel,Automatic,First,Individual,FWD,0
 31200.0,2015,46000,2967.0,5089.0,1983.0,1737.0,7.0,100.0,Diesel,Automatic,First,Individual,AWD,2
 15600.0,2012,64800,1796.0,4596.0,1770.0,1447.0,5.0,66.0,Petrol,Automatic,First,Individual,RWD,3
