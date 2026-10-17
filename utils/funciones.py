@@ -28,8 +28,8 @@ Uso en un notebook
 Dependencias
 ------------
 Obligatorias: numpy, pandas, matplotlib, seaborn, scikit-learn.
-Opcionales (se importan solo cuando se usan): statsmodels (``check_vif``) y scipy
-(``plot_dendrogram``). Ya no se requiere ``sktime``: el MASE está implementado aquí.
+Opcionales (se importan solo cuando se usan): scipy (``plot_dendrogram``). Ya no se requiere
+``sktime`` (el MASE está implementado aquí) ni statsmodels (el VIF se calcula con NumPy).
 """
 from __future__ import annotations
 
@@ -299,6 +299,19 @@ def check_vif(X: pd.DataFrame) -> pd.DataFrame:
     El VIF mide cuánto se explica una variable a partir de las demás: valores entre
     5 y 10 suelen tomarse como umbral de multicolinealidad (más exigente cuanto menor).
 
+    Cada VIF se calcula como ``1 / (1 - R²)``, con el R² de la regresión de esa variable sobre
+    las demás (con mínimos cuadrados de NumPy, sin statsmodels). Los resultados coinciden con
+    ``statsmodels.stats.outliers_influence.variance_inflation_factor`` y además:
+
+    * Si una variable es combinación lineal exacta de las demás (colinealidad perfecta, por
+      ejemplo las variables dummy de una categoría cuya categoría de referencia no tiene
+      filas) su VIF es ``inf``. No se emiten avisos: el ``inf`` de la tabla ya lo indica.
+    * Las columnas constantes (varianza 0), como la columna ``const`` que agrega
+      ``sm.add_constant``, se omiten porque su VIF no está definido. Si hay una columna
+      constante distinta de cero actúa como intercepto de las regresiones. Igual que
+      statsmodels, el R² es centrado cuando las variables regresoras incluyen o generan una
+      constante (por ejemplo, dummies que suman 1) y sin centrar en caso contrario.
+
     Parameters
     ----------
     X : pd.DataFrame
@@ -309,18 +322,39 @@ def check_vif(X: pd.DataFrame) -> pd.DataFrame:
     pd.DataFrame
         Columnas ``Features`` y ``VIF``, ordenadas de mayor a menor VIF.
     """
-    from statsmodels.stats.outliers_influence import variance_inflation_factor
-
     if not isinstance(X, pd.DataFrame):
         raise TypeError("X debe ser un DataFrame de pandas.")
     if X.isna().any().any():
         raise ValueError("X contiene valores nulos; imputa o elimina antes de calcular el VIF.")
 
-    valores = X.to_numpy(dtype=float)
-    vif = pd.DataFrame({
-        "Features": X.columns,
-        "VIF": [variance_inflation_factor(valores, i) for i in range(X.shape[1])],
-    })
+    es_constante = (X.nunique(dropna=False) <= 1).to_numpy()
+    columnas = X.columns[~es_constante]
+    valores = X.loc[:, ~es_constante].to_numpy(dtype=float)
+    n_filas, n_vars = valores.shape
+
+    # Una constante distinta de cero actúa como intercepto en las regresiones auxiliares
+    tiene_intercepto = bool((X.loc[:, es_constante] != 0).any().any())
+    intercepto = np.ones((n_filas, 1)) if tiene_intercepto else np.empty((n_filas, 0))
+
+    vifs = []
+    for j in range(n_vars):
+        y = valores[:, j]
+        regresoras = np.hstack([intercepto, np.delete(valores, j, axis=1)])
+        if regresoras.shape[1] == 0:
+            vifs.append(1.0)
+            continue
+        coef = np.linalg.lstsq(regresoras, y, rcond=None)[0]
+        ss_res = float(np.sum((y - regresoras @ coef) ** 2))
+        # R² centrado si las regresoras incluyen o generan una constante (intercepto explícito o implícito)
+        con_constante = tiene_intercepto or (
+            np.linalg.matrix_rank(np.column_stack([np.ones(n_filas), regresoras])) == np.linalg.matrix_rank(regresoras)
+        )
+        ss_tot = float(np.sum((y - y.mean()) ** 2)) if con_constante else float(np.sum(y ** 2))
+        # Si los residuos son prácticamente 0 la variable es combinación exacta de las demás
+        perfecta = ss_res <= 1e-10 * ss_tot
+        vifs.append(np.inf if perfecta else ss_tot / ss_res)
+
+    vif = pd.DataFrame({"Features": columnas, "VIF": vifs})
     vif["VIF"] = vif["VIF"].round(2)
     return vif.sort_values("VIF", ascending=False).reset_index(drop=True)
 
